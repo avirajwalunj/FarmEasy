@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <script src="https://kit.fontawesome.com/5e5e2baa24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Login.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.sign-up-form {
+    height: 67vh;
+    width: 395px;
+    box-shadow: 0 0 3px 0;
+    background: #fff;
+    padding: 20px;
+    margin: 5% auto;
+    text-align: center;
+}
+.sign-up-form h1 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+}
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn {
+    background-color: #1c8adb;
+}
+.google-btn {
+    background-color: #21afde;
+}
+a {
+    text-decoration: none;
+}
+hr {
+    margin-top: 20px;
+}
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -13px auto 10px;
+}
+.notice {
+    margin: 14px 0;
+}
+
+.user {
+    font-size: 2rem;
+    color: dodgerblue;
+}
+
+    </style>
+</head>
+<body>
+<div class="sign-up-form">
+    <span class="user"><i class="far fa-user"></i></span>
+    <h1>Login Now</h1>
+    <form action="log_in.html" name="myform" method="GET">
+        <input type="email" name="email" class="input-box" placeholder="Enter Email">
+        <input type="password" name="password" class="input-box" placeholder="password">
+        <p class="notice"> <span><input type="checkbox"></span> I agree to terms and services</p>
+        <button type="submit" class="signup-btn"><a href="index.html">Login</a></button>
+        <hr>
+        <p class="or">OR</p>
+        <button type="button" class="google-btn">Login with Google</button>
+        <p class="notice">New Customer?  <a href="sign_up.html">Sign Up</a></p>
+    </form>
+
+
+</div>
+</body>
+</html>
